@@ -317,3 +317,12 @@ body {
     align-items: center;
     text-align: center;
 }
+
+.linhas-duplas2{
+    box-sizing: 80px;
+    margin: 20px 8% 0 8%;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    text-align: center;
+}
