@@ -1,0 +1,311 @@
+
+
+body {
+    margin: 0;
+        background-image: url(fundo.png);
+}
+
+.linhas-duplas{
+    box-sizing: 80px;
+    margin: 50px 0 0 10%;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+}
+
+.linha-única{
+    box-sizing: 80px;
+    margin: 0px 0 0 10%;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+}
+.titulo-do-cabeçalho {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    color:black;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.título-intruções{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    margin: 0px 0 0 11%;
+}
+
+.icone{  
+    box-sizing: 80px;
+    margin: 0px 0 0 11%;
+    height: auto;
+    width: 60px;
+}
+
+.texto-instrução{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin: 20px 0 2px 30px;
+
+}
+
+.cores{
+    display: flex;
+    margin: 20px 0 0 0;
+}
+
+.microfone{
+    display: flex;
+    margin: 20px 0 0 0;
+}
+
+.arquitetura{
+    display: flex;
+    margin: 20px 0 0 0;
+}
+
+.icone-barreira{
+    box-sizing: 80px;
+    margin: 0px 0 0 11%;
+    height: auto;
+    width: 40px;
+}
+
+.saber-mais{
+    display: flex; 
+}
+
+.botão-saiba-mais{
+    display: flex;
+    margin:20px 0 0 10%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 5px 5px 0px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: black;
+    letter-spacing: 0;
+}
+
+.texto-botão-saiba-mais{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin: 20px 0 2px 20px
+}
+
+.título-informações{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    margin: 10px 0 0 10px;
+}
+
+.coisas-principais{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0px 11% 0 11%;
+}
+
+.coluna-esquerda{
+    padding: 0 30px 0 0;
+    text-align: justify;
+}
+
+.coluna-direita{
+    padding: 0 30px 0 0;
+    text-align: justify;
+}
+
+.título-interno-informações{
+    font-family: 'Amaranth';
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 30px 0px 5px 20px;
+}
+
+.título-interno-informações-lei{
+    font-family: 'Amaranth';
+    font-size: 23px;
+    margin: 30px 0px 5px 11%;
+}
+
+.texto-interno-informações{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin: 0px 0 20px 20px;
+}
+
+.botão-lei{
+    margin:0px 168px 30px 222px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 5px 5px 0px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: black;
+}
+
+#btnLeiaMais{
+    margin:0px 168px 30px 310px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 5px 5px 0px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.imagem-informações{
+    width: 400px;
+    margin:50px 30px 40px 60px;
+}
+
+#mais{
+    display: none;
+}
+
+.título-interno-isa{
+    font-family: 'Amaranth';
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 30px 0px 30px 20px;
+}
+
+.texto-interno-isa {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin: 0px 0 20px 20px;
+}
+
+.coluna-esquerda-isa{
+    padding: 0 30px 0 0;
+    text-align: justify;
+}
+
+.coluna-direita-isa{
+    padding: 0 30px 0 0;
+    text-align: justify; 
+}
+
+.historias-depoimentos{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 0px 11% 0 11%;
+}
+
+
+.isa-roxo{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: 30px 20px 20px 70px;
+}
+
+.isa-escola{
+    width: 200px;
+    display: flex;
+    margin: 0px 20px 0px 70px;
+}
+
+.inclusão-simbolo{
+    display: flex;
+}
+
+.simbolo-inclusão{
+    width: 130px;
+    padding: 0 0 0 15px;
+}
+
+.simbolo-calendário{
+    display: flex;
+    margin: 30px 0 0 0;
+}
+
+.texto-interno-informações-simbolo{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin: 15px 0 0px 20px;
+}
+
+.texto-interno-informações-lei{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin: 10px 10% 0 11%;
+    text-align: justify;
+}
+
+.texto-interno-informações-lei2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin: 0 10% 0 20px;
+    text-align: justify;
+}
+
+.coluna-direita-curiosidades{
+    padding: 0 30px 0 0;
+    text-align: justify;
+}
+
+.calendário{
+    width: 130px;
+    padding: 0 0 0 15px;
+}
+
+.texto-interno-informações-curiosidades{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin: 10px 0 0px 20px;
+}
+
+.texto-interno-informações-curiosidades2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin: 10px 0 0px 20px; 
+}
+
+.botão-lei-site{
+    margin: 10px 15px 0 ;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 5px 5px 0px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: black;
+   
+}
+
+.texto-lei-botão{
+    text-align: center;
+    align-items: center;
+    margin: 30px 0 0 0;
+}
+
+.titulo-rodapé{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.insta{
+    display: flex;
+    margin: 20px 11% 20px 12%;
+}
+
+.texto-interno-informações-insta{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin: 9px 0 20px 10px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
