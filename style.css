@@ -206,7 +206,7 @@ body.dark{
 }
 
 .botão-lei{
-    margin:0px 250px 30px 250px;
+    margin:0px 250px 30px 100px;
     font-family: 'Bebas Neue', sans-serif;
     color: white;
     font-size: 20px;
@@ -214,7 +214,7 @@ body.dark{
     text-decoration: none;
     border-radius: 20px;
     background-color: black;
-    text-align: center;
+    
 }
 
 #btnLeiaMais{
