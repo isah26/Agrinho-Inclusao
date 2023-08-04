@@ -214,6 +214,7 @@ body.dark{
     text-decoration: none;
     border-radius: 20px;
     background-color: black;
+    text-align: center;
 }
 
 #btnLeiaMais{
